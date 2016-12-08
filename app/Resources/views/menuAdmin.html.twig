@@ -1,0 +1,90 @@
+        {% block body %}
+          <ul>
+            <li class="link active">
+              <a href="#">
+                <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+                <span class="hidden-xs hidden-sm">Principal</span>
+              </a>
+            </li>
+            <li class="link active">
+              <a href="#collapse-post" data-toggle="collapse" aria-controls="collapse-post">
+                <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                <span class="hidden-xs hidden-sm">Datos de Colegiados</span>
+                <span class="label label-success pull-right hidden-xs hidden-sm">20</span>
+              </a>
+              <ul class="collapse collapseable" id="collapse-post">
+                <li><a href="{# { path('newcolegiado') } #}">Inscribir Nuevo</a></li>
+                <li><a href="#">Modificar Colegiados</a></li>
+                <li><a href="#">Traslado Colegiados</a></li>
+              </ul>
+            </li>
+
+            <li class="link">
+              <a href="#collapse-comments" data-toggle="collapse" aria-controls="collapse-comments">
+                <span class="glyphicon glyphicon-list-pencil" aria-hidden="true"></span>
+                <span class="hidden-xs hidden-sm">Estado de Cuenta del Colegiado</span>
+              </a>
+              <ul class="collapse collapseable" id="collapse-comments">
+                <li>
+                  <a href="approved.html">Estado de Cuentas<span class="label label-success pull-right hidden-xs hidden-sm">10</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Pago Cuota Incripcion<span class="label label-warning pull-right hidden-xs hidden-sm">10</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Otros<span class="label label-warning pull-right hidden-xs hidden-sm">10</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="link">
+              <a href="#collapse-certificado" data-toggle="collapse" aria-controls="collapse-certificado">
+                <span class="glyphicon glyphicon-list-pencil" aria-hidden="true"></span>
+                <span class="hidden-xs hidden-sm">Extender Certificado</span>
+              </a>
+              <ul class="collapse collapseable" id="collapse-certificado">
+                <li>
+                  <a href="#">Certificado de Habilidad<span class="label label-success pull-right hidden-xs hidden-sm">10</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Certificado de Traslado<span class="label label-warning pull-right hidden-xs hidden-sm">10</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Excepción de Pago de Cuota<span class="label label-warning pull-right hidden-xs hidden-sm">10</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="link">
+              <a href="#collapse-listas" data-toggle="collapse" aria-controls="collapse-listas">
+                <span class="glyphicon glyphicon-list-pencil" aria-hidden="true"></span>
+                <span class="hidden-xs hidden-sm">Enviar Notificaciones a Colegiados</span>
+              </a>
+              <ul class="collapse collapseable" id="collapse-listas">
+                <li>
+                  <a href="#">Vencimiento de Pagos<span class="label label-success pull-right hidden-xs hidden-sm">10</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Sanciones o Multas<span class="label label-warning pull-right hidden-xs hidden-sm">10</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="link">
+              <a href="#">
+                <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+                <span class="hidden-xs hidden-sm">Cerrar Caja Diaria</span>
+              </a>
+            </li>
+
+            <a href="{# { path('gestor_homepage') } #}" id="salida" class="btn btn-danger btn-lg">Salir</a>
+          </ul>
+        {% endblock %}

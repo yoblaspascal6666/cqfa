@@ -1,0 +1,3 @@
+cqf_agetor_cqf_homepage:
+    path:     /
+    defaults: { _controller: CQFAgetorCQFBundle:Default:index }

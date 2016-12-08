@@ -1,0 +1,7 @@
+cqf_agetor_cqf:
+    resource: "@CQFAgetorCQFBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

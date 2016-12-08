@@ -1,0 +1,83 @@
+{% extends 'layout.html.twig' %}
+{% block body %}
+<img src="{{ asset('img/Alpamayo2.png') }}" alt="mi montaña" />
+<div class="row" id="trescirculos">
+      <div class="col-lg-4">
+        <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+        <h3>Rocío Córdova Mejía</h3>
+         <h5>Q.F.</h5>
+        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="img-circle" src="{{ asset('assets/jorge.png') }}" width="140" height="140">
+        <h3>Jorge Pirulo</h3>
+        <h5>Q.F.</h5>
+        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="img-circle" src="{{ asset('assets/maria.png') }}"  width="140" height="140">
+        <h3>María Pirula</h3>
+        <h5>Q.F.</h5>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+    <div classe="container" id="miprimerboton">
+      <a href="#ventana1" id="" class="btn btn-primary btn-lg" data-toggle="modal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+    </div>
+    <div class="modal fade" id="ventana1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- heder de la ventana -->
+          <div class="modal-heder" id="ventanita2">
+            <h5 class="modal-title"> ..Ingrese Usuario y Codigo de Acceso</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+          </div>
+          <!-- contenido de la ventana -->
+          <div class="modal-body" id="ventanita">
+            <form class="">
+            <div class="form-group">
+                <label for="">Usuario</label>
+                <input class="form-control" id="inputusuario" type="text" name="name1">
+            </div>
+            <div class="form-group">
+                <label for="">Clave</label>
+                <input class="form-control" id="minput" type="password" name="name2">
+             </div>
+            </form>
+            <script>
+
+             function modificar(url,texto,destino){
+               var clave = document.getElementById("minput").value
+               if (clave == 1111) {
+                  var url = "{# { path('usuario') } #}";
+                  var texto = '&nbsp;&nbsp;&nbsp;&nbsp;Aceptar&nbsp;&nbsp;&nbsp;&nbsp;';
+                  var destino = '_self';
+              } else if (clave == 2222) {
+                var url = "{# { path('directivo') } #}";
+                var texto = '&nbsp;&nbsp;&nbsp;&nbsp;Aceptar&nbsp;&nbsp;&nbsp;&nbsp;';
+                var destino = '_self';
+              } else {
+                var url = '#';
+                var texto = '&nbsp;&nbsp;&nbsp;&nbsp;Aceptar&nbsp;&nbsp;&nbsp;&nbsp;';
+                var destino = '_self';
+                alert("ERROR EN EL USUARIO O EN LA CAVE DE ACCESO");
+              }
+                  document.getElementById("mienlace").innerHTML = texto;
+                  document.getElementById("mienlace").href = url;
+                  document.getElementById("mienlace").target = destino;
+             }
+            </script>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#" class="btn btn-primary" id="mienlace" onclick="modificar();">&nbsp;&nbsp;&nbsp;&nbsp;Aceptar&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <br>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% include 'piePagina.html.twig' %}
+{% endblock %}

@@ -1,0 +1,58 @@
+{% block stylesheets %}
+<link rel="stylesheet" href="{{ asset('assets/vendor/footercss/demo.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/vendor/footercss/piePagina.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/vendor/bower_components/bootstrap/font-awesome-4.6.3/css/font-awesome.min.css') }}">
+
+{% endblock %}
+{% block body %}
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<img src="{{ asset('assets/favico.png') }}" WIDTH=80 HEIGHT=100 alt="loguito" />
+
+
+        <img src="{{ asset('assets/by-sa_petit.png') }}" WIDTH=40 HEIGHT=20 alt="tira" />
+
+
+			</div>
+
+			<div class="footer-center">
+
+			<!--	<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>microcentro haras</span> Huaras, Áncash, Perú</p>
+				</div> -->
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+54 43-5 123456</p>
+        </div>
+        <div>
+        	<i class="fa fa-envelope"></i>
+					<p><a href="mailto:cqfa@cqfa.com">cqfa@cqfa.com</a></p>
+				</div>
+
+			</div>
+
+				<div class="footer-right">
+
+		<!--	<p class="footer-company-about">
+					<span>Colegio Químico Farmaceutico de Áncash</span>
+
+        Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+      </p> -->
+
+				<div class="footer-icons">
+
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+{% endblock %}

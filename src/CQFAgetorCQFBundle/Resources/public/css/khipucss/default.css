@@ -1,0 +1,435 @@
+#elbody {
+  font-family: "open sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #4CC0A9;
+  color: #676a6c;
+  height: 100%;
+}
+#miprimerboton {
+  position: absolute;
+  right: 400px;
+  bottom: 350px;
+
+
+  }
+#newcolegiado2 {
+  position: absolute;
+  right: 500px;
+  }
+
+#botonnewcolegiado {
+  position: absolute;
+  right: 550px;
+
+  }
+
+.box {
+  border: 0px red dotted;
+  }
+  #trescirculos {
+    background-color: #8AB8EA;
+    padding-left: 80px;
+  }
+  #logo1 {
+    margin: 70px 20px;
+  }
+  #titulo1 {
+    margin: 70px 20px;
+  }
+  #ventanita {
+    background-color: #8AB8EA;
+    padding: 25px;
+  }
+  #ventanita2 {
+    background-color: #8AB8EA;
+    padding: 15px;
+  }
+  #ventana17 {
+    background-color: #8AB8EA;
+
+  }
+  #cerfechaemi {
+    position: absolute;
+      right: 242px;
+  }
+  #cerqr {
+    position: absolute;
+      right: 242px;
+  }
+  #cargacer1 {
+    position: absolute;
+      right: 100px;
+  }
+  #titleuno {
+      width: 500px;
+  }
+  #titledos {
+      width: 500px;
+  }
+  #SLUG {
+      width: 500px;
+  }
+
+  #inputusuario {
+      width: 300px;
+  }
+  #minput {
+      width: 300px;
+  }
+
+
+#side-menu {
+  background-color: #2f4050;
+  padding: 0px;
+}
+#side-menu h1 {
+  color: #1f3647;
+  text-align: center;
+  margin: 10px 0px;
+  font-size: 25px;
+}
+#side-menu lu {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+
+}
+#side-menu a {
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #9fb1c2;
+  font-weight: bold;
+  font-size: 13px;
+  display: block;
+
+}
+#side-menu .glyphicon {
+  margin-right: 6px;
+
+}
+#side-menu a:hover {
+  background-color: #293846;
+  color: #fff;
+  display: block;
+
+}
+#side-menu .active a {
+  color: #fff;
+  background-color: #293846;
+
+}
+#side-menu .settings-btn {
+  background-color: #1ab394;
+
+}
+#side-menu .settings-btn a {
+  color: #fff;
+}
+#side-menu .settings-btn a:hover {
+  background-color: #1ab394;
+}
+#side-menu .collapseable li {
+  padding-left: 20px;
+  padding-top: 5px;
+}
+#side-menu .collapseable a {
+  color: #9fb1c2;
+  font-size: 12px;
+  padding: 0px 10px;
+  text-decoration: none;
+  display: block;
+}
+#side-menu .collapseable a:hover {
+  color: #fff;
+
+}
+#side-menu .collapseable {
+  border-left: 4px solid #1ab394;
+  background-color: #293846;
+
+}
+#side-menu .link > ul > li {
+  padding-bottom: 10px;
+
+}
+.display-table{
+  display: table;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+.display-table-row{
+  display: table-row;
+  height: 100%;
+}
+.display-table-cell{
+  display: table-cell;
+  float: none;
+  height: 100%;
+}
+.valign-top{
+  vertical-align: top;
+}                          //////////////////////
+#nav-header {
+  background-color: #4CC0A9;
+  border-bottom: 1px solid #e7eaec;
+  }
+  #eltitulo h2 {
+  color: #2f4050;
+    }
+
+  #nav-header #header-search-field {
+    padding-top: 13px;
+    margin-top: 0px;
+    margin-right: 25px;
+    border: none;
+    width: 300px;
+    outline: none;
+  }
+  #nav-header ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color: #676a6c;
+      }
+  #nav-header ul li {
+  float: left;
+  margin-left: 15px;
+  margin-top: 1px;
+  padding: 1px 0px;
+  }
+  #nav-header ul .glyphicon {
+    color: #676a6c;
+    }
+  .label-message {
+    background-color: #1ab394;
+  }
+  #nav-header ul a {
+    text-decoration: none;
+  }
+  #nav-header .logout {
+    color: #676a6c;
+  }
+  #nav-header .logout:hover {
+    color: #676a6c;
+  }
+  #nav-header #welcome {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 10px;
+  }
+  #nav-header ul .label {
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -5px;
+  }
+  #nav-header .fixed-width {
+    width: 35px;
+  }
+  #cargatel {
+   position: absolute;
+   right: 50px;
+  }
+
+  #cargadir {
+   position: absolute;
+   right: 50px;
+  }
+
+
+  #deselec {
+   position: absolute;
+   right: 150px;
+  }
+  #ladescripcion {
+   position: absolute;
+   right: 340px;
+  }
+  #header-search-field{
+    background-color: #35BF5C;
+    color: #000000;
+  }
+  #fechavalelec {
+   position: absolute;
+   right: 150px;
+  }
+  #lavalidacion {
+   position: absolute;
+   right: 340px;
+  }
+  #labnum {
+   position: absolute;
+   right: 320px;
+  }
+  #docnumero {
+   position: absolute;
+   right: 120px;
+   margin-bottom: 6px;
+  }
+
+  #labdescripcion {
+   position: absolute;
+   right: 317px;
+   margin-bottom: 17px;
+  }
+  #docdescripcion {
+   position: absolute;
+   right: 120px;
+   margin-bottom: 1px;
+  }
+  #docfechaemi {
+   position: absolute;
+   right: 120px;
+   margin-top: 10px;
+  }
+  #docfechaven {
+   position: absolute;
+   right: 120px;
+   margin-top: 20px;
+  }
+  #doclugaremi {
+   position: absolute;
+   right: 120px;
+   margin-top: 30px;
+  }
+*////////////////////
+#cerfechaemi {
+  position: absolute;
+  right: 310px;
+  margin-top: 18px;
+  color: #94B2CC;
+
+
+
+  #labfechemi {
+    position: absolute;
+    right: 310px;
+    margin-top: 18px;
+  }
+  #labfechven {
+    position: absolute;
+    right: 310px;
+    margin-top: 24px;
+  }
+  #lablugarem {
+    position: absolute;
+    right: 310px;
+    margin-top: 31px;
+  }
+  #famnombre {
+    position: absolute;
+    right: 220px;
+    margin-top: -4px;
+  }
+  #famapellido {
+    position: absolute;
+    right: 220px;
+    margin-top: -3px;
+  }
+  #famnacimiento {
+    position: absolute;
+    right: 220px;
+    margin-top: -4px;
+  }
+
+  #boton-inicio {
+    position: absolute;
+    width: 100;
+    bottom: 70px;
+    right: 975px;
+
+  }
+  #salida {
+    color: #676a6c;
+  }
+  #admin-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background-color: #35BF5C;
+    padding: 10px;
+    font-size: 12px;
+    color: #676a6c;
+    }
+    .navbar-default {
+      background-color: #fff;
+    }
+    .navbar-default .navbar-toggle {
+      border-color: #1ab394;
+      background-color: #1ab394;
+    }
+    .navbar-default .icon-bar {
+      border: 1px white solid;
+    }
+    .navbar-default .navbar-toggle:hover {
+      background-color: #1ab394;
+    }
+    .navbar-default navbar-toggle:focus {
+      background-color: #1ab394;
+    }
+    #content {
+      margin: 20px 0px 50px 0px;
+      background-color: #fff;
+      border-top: 4px #e7eaec solid;
+    }
+    #content header {
+      border-bottom: 1px #f3f3f4 solid;
+      padding: 10px 2opx;
+    }
+    .page-title {
+      font-size: 14px;
+      font-weight: bold;
+
+      margin: 0px;
+    }
+    .content-inner {
+      padding: 20px;
+
+    }
+.search-field {
+  height: 31px;
+  border: 1px #e7eaec solid;
+
+}
+.search-row {
+  margin-bottom: 30px;
+
+}
+.btn-primary {
+  background-color: #1ab394;
+  border: 1px solid #1ab394;
+}
+.btn-primary:hover {
+  background-color: #1cc394;
+  border: 1px solid #1cc394;
+}
+.btn-primary:focus {
+  background-color: #1cc394;
+  border: 1px solid #1cc394;
+}
+.go {
+  height: 32px;
+}
+.label-success {
+  background-color: #1ab394;
+}
+.label-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+.label-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.label-xs {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.pagination a {
+  color: #1ab394 !important;
+}

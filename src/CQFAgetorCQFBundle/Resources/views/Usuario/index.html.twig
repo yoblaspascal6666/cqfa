@@ -1,0 +1,28 @@
+{% extends "layout.html.twig" %}
+    {% block body %}
+    <div class="container-fluid display-table">
+      <div class="row display-table-row" id="elbody">
+        <!-- side-menu -->
+        <div class="col-md-2 hidden-xs col-sm-1 display-table-cell valign-top" id="side-menu">
+          <h1>NAVEGACION</h1>
+
+          {% include 'menuAdmin.html.twig' %}
+
+        </div>
+        <!-- main content area -->
+        <div class="col-md-10 col-sm-11 display-table-cell valign-top box">
+          <div class="row">
+          {% include 'encavezado.html.twig' %}
+          </div>
+        </div>
+      </div>
+    </div>
+            {% include 'piePagina2.html.twig' %}
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/default.js"></script>
+
+
+    {% endblock %}
